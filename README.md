@@ -6,7 +6,7 @@ This repository includes two complimentary approaches to creating a dark theme f
 * The results here are not quite polished or professional, but they might serve as a launching point for a better dark theme. For example, Qt should allow for replacing many of the UI symbols with dark-theme compatible images.
 
 ## Preview
-<img src="img/preview.png" />
+<img src="docs/preview.png" />
 
 ## How to use
 ### Qt GUI
@@ -17,11 +17,10 @@ To override Qt GUI settings, TeXstudio allows for a `stylesheet.qss` file that i
 * **Portable**: `config/texstudio.ini` relative to the TeXstudio executable
 
 ### Syntax highlighting
-Syntax highlighting settings are stored with other settings in `texstudio.ini`. **You probably do not want to replace all settings** because they include default paths to a PDF viewer and other programs. To include syntax highlighting, make a backup and then manually copy the `[formats]` section (around line 400 and below) to replace the corresponding section of your own `texstudio.ini`. See above for the location of this file.
+Syntax highlighting settings are stored with other settings in `texstudio.ini`. **You probably do not want to replace all settings** because they include default paths to a PDF viewer and other programs. To include syntax highlighting, make a backup and then manually copy the `[formats]` section (around line 400 and below) to replace the corresponding section of your own `texstudio.ini`. See above for the location of this file. Colors can be changed later at <kbd>Options | Configure TeXstudio</kbd> under <kbd>Syntax Highlighting</kbd>.
 
 *Note*: Close TeXstudio before editing `texstudio.ini`. When TeXstudio is closed, any edits in `texstudio.ini` will be overwritten.
 
-Colors can be changed later at <kbd>Options | Configure TeXstudio</kbd> under <kbd>Syntax Highlighting</kbd>.
 
 ### Other options
 You may wish to change the default internal PDF viewer paper color and highlight color. These can be found through <kbd>Options | Configure TeXstudio</kbd>; check <kbd>Show Advanced Options</kbd>, and then make edits under <kbd>Internal PDF Viewer | Paper Color</kbd>.

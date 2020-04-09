@@ -1,0 +1,10 @@
+*
+!.gitignore
+!docs
+!docs/*
+!img
+!img/*
+!LICENSE
+!README.md
+!stylesheet.qss
+!texstudio.ini
